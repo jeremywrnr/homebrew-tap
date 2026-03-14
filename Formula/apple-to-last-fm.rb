@@ -5,11 +5,11 @@ class AppleToLastFm < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v0.1.0/apple-to-last-fm-aarch64-apple-darwin.tar.xz"
-      sha256 "434078124b776d22f0a8ffc53b2f05bde2cc70a891d351a3df2cbc430f009624"
+      sha256 "0743b159ea451f13a131d54d90bf930f9a91b649c5792e2323c8136319ff0862"
     end
     if Hardware::CPU.intel?
       url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v0.1.0/apple-to-last-fm-x86_64-apple-darwin.tar.xz"
-      sha256 "840d554cebeb8b2b59b1403586d35b6a66b782ae865442944ad6dcf0c3a21cd1"
+      sha256 "fbba6f238b4c64987e1bd2a814ba3afe45cf752cc2ac59e4ae50767954b6dc50"
     end
   end
   license "MIT"
