@@ -1,15 +1,15 @@
 class AppleToLastFm < Formula
   desc "Scrobble Apple Music plays to Last.fm"
   homepage "https://github.com/jeremywrnr/apple-to-last-fm"
-  version "1.1.0"
+  version "1.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v1.1.0/apple-to-last-fm-aarch64-apple-darwin.tar.xz"
-      sha256 "31255a3b3afbe041103fa52b6bb534f35679167df5e83c8fc346c5f9324cbbd4"
+      url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v1.1.1/apple-to-last-fm-aarch64-apple-darwin.tar.xz"
+      sha256 "3423196bad632fc2aeb93f274ffe997eb51d6435555a3f1c06672ddb9aa63f93"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v1.1.0/apple-to-last-fm-x86_64-apple-darwin.tar.xz"
-      sha256 "f6264321566084ee00bd8140d84ba5945d9c57d86c5d2b718899cf489be6e3e6"
+      url "https://github.com/jeremywrnr/apple-to-last-fm/releases/download/v1.1.1/apple-to-last-fm-x86_64-apple-darwin.tar.xz"
+      sha256 "34f9c2d0a0f5c2aa36dc66a2aa64619b341c735ebb4700222a44e80371967ba8"
     end
   end
   license "MIT"
